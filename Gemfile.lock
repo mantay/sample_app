@@ -28,6 +28,8 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
+    bootstrap-sass (2.3.2.0)
+      sass (~> 3.2)
     builder (3.2.2)
     capybara (2.2.0)
       mime-types (>= 1.16)
@@ -94,7 +96,7 @@ GEM
     rake (10.3.2)
     rdoc (4.1.1)
       json (~> 1.4)
-    rspec-core (3.1.1)
+    rspec-core (3.1.2)
       rspec-support (~> 3.1.0)
     rspec-expectations (3.1.0)
       diff-lcs (>= 1.2.0, < 2.0)
@@ -157,6 +159,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass (= 2.3.2.0)
   capybara (= 2.2.0)
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
